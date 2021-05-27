@@ -1,0 +1,4 @@
+help = pretend to build demo cluster's server binary
+
+[env]
+cluster.bin = write

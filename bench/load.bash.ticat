@@ -1,0 +1,6 @@
+help = pretend to load data
+
+[env]
+cluster.host = may-read : write
+cluster.port = read
+bench.scale = may-read : write

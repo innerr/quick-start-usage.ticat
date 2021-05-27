@@ -1,0 +1,7 @@
+help = change bench data scale
+
+[arg]
+scale = 1
+
+[env]
+bench.scale = write

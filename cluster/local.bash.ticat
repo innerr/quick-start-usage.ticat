@@ -1,0 +1,9 @@
+help = set local cluster as active cluster to env
+
+[arg]
+port = ""
+host = 127.0.0.1
+
+[env]
+cluster.host = may-read : write
+cluster.port = may-read : write

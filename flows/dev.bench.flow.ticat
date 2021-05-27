@@ -1,0 +1,2 @@
+# help = build binary in pwd, then restart cluster and do benchmark. @ready
+local.build : cluster.local : cluster.restart : ben.load : ben.run

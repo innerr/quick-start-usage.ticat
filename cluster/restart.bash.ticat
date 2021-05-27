@@ -1,0 +1,7 @@
+help = pretend to run bench
+
+[env]
+cluster.host = read
+cluster.port = read
+
+bench.scale = may-read

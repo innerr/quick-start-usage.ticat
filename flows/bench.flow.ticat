@@ -1,0 +1,4 @@
+#
+# help = pretend to do bench. @ready
+#
+bench.load : bench.run

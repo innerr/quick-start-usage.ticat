@@ -1,0 +1,10 @@
+help = pretend to scan jitter @ready
+abbr = jitter|jit
+
+[env]
+cluster.host = read
+cluster.port = read
+
+bench.scale = read
+bench.begin = read
+bench.end   = read
