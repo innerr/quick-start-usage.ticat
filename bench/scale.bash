@@ -5,5 +5,5 @@ env=`cat "${env_file}"`
 shift
 
 scale="${1}"
-echo -e "bench.scale\t${scale}" >> "${env_file}"
+echo "bench.scale=${scale}" >> "${env_file}"
 echo "set bench scale=${scale}"

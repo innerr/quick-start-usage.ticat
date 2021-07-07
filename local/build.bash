@@ -17,4 +17,4 @@ echo "build succeeded, binary:"
 bin="${here}/bin/demo-cluster-server"
 echo "    - ${bin}"
 
-echo -e "cluster.bin\t${bin}" >> "${env_file}"
+echo "cluster.bin=${bin}" >> "${env_file}"

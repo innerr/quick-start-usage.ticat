@@ -12,13 +12,13 @@ fi
 host=`echo "${env}" | { grep '^cluster.host' || test $? = 1; } | awk '{print $2}'`
 if [ -z "${host}" ]; then
 	host="127.0.0.1"
-	echo -e "cluster.host\t${host}" >> "${env_file}"
+	echo "cluster.host=${host}" >> "${env_file}"
 fi
 
 scale=`echo "${env}" | { grep '^bench.scale' || test $? = 1; } | awk '{print $2}'`
 if [ -z "${scale}" ]; then
 	scale=1
-	echo -e "bench.scale\t${scale}" >> "${env_file}"
+	echo "bench.scale=${scale}" >> "${env_file}"
 fi
 
 echo "data loading to ${host}:${port} begin, scale=${scale}"

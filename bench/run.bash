@@ -19,5 +19,5 @@ echo "benchmark on ${host}:${port} finish"
 
 end=`date +%D-%T`
 
-echo -e "bench.begin\t${begin}" >> "${env_file}"
-echo -e "bench.end\t${end}" >> "${env_file}"
+echo "bench.begin=${begin}" >> "${env_file}"
+echo "bench.end=${end}" >> "${env_file}"

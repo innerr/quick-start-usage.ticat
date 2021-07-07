@@ -22,7 +22,7 @@ if [ -z "${host}" ]; then
 	fi
 fi
 
-echo -e "cluster.host\t${host}" >> "${env_file}"
-echo -e "cluster.port\t${port}" >> "${env_file}"
+echo "cluster.host=${host}" >> "${env_file}"
+echo "cluster.port=${port}" >> "${env_file}"
 
 echo "set cluster address ${host}:${port} to env"
